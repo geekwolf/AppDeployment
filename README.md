@@ -15,5 +15,6 @@
 - xcodebuild archive 选择不同的环境/BundleID/ProvisionProfile/CodeSigningIdentify 编译，签名生成xcarchive文件
 - xcodebuild -exportArchive 打包生成ipa
 - 测试包自动上传Fir,生产包手动更新AppStore
+
 ####Android7.0打包方式:
 - http://tech.meituan.com/android-apk-v2-signature-scheme.html
