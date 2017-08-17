@@ -1,4 +1,4 @@
-####Android多渠道打包流程:
+#### Android多渠道打包流程:
 - 执行gradlew clean清除build目录
 - 执行gradlew assemble编译打包Debug/Release(已自动签名)
 - 上传Debug包到Fir
@@ -10,11 +10,11 @@
 - 刷新CDN生效
 - 通过DingTalk发送通知信息到QA讨论组哪些渠道已经发布
 
-####IOS打包流程:
+#### IOS打包流程:
 - xcodebuild clean 清理build目录
 - xcodebuild archive 选择不同的环境/BundleID/ProvisionProfile/CodeSigningIdentify 编译，签名生成xcarchive文件
 - xcodebuild -exportArchive 打包生成ipa
 - 测试包自动上传Fir,生产包手动更新AppStore
 
-####Android7.0打包方式:
+#### Android7.0打包方式:
 - http://tech.meituan.com/android-apk-v2-signature-scheme.html
